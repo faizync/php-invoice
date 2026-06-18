@@ -295,9 +295,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         .print-btn:hover { opacity: 0.88; }
 
         @media print {
-            header, .container > .card, .print-btn, .errors { display: none !important; }
-            body { background: #fff; }
-            .invoice-preview { box-shadow: none; padding: 0; }
+    header, .print-btn, .errors { display: none !important; }
+    #invoiceForm { display: none !important; }
+    body { background: #fff; }
+    .invoice-preview { box-shadow: none; padding: 0; }
         }
 
         @media (max-width: 640px) {
