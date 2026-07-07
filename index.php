@@ -1,7 +1,7 @@
 <?php
 // public/index.php
 // Invoice Generator - Main entry point
-require_once __DIR__ . '/../src/Invoice.php';
+require_once __DIR__ . '/src/Invoice.php';
 
 $invoice = null;
 $errors = [];
